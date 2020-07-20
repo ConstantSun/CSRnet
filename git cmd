@@ -1,0 +1,12 @@
+- err: could not resolve host github.com 
+$ git config --global --unset https.proxy
+
+- update lai local code cho giong tren github:
+$ git fetch --all
+$ git reset --hard origin/master
+
+
+- update git on internet from local:
+$ git add .
+$ git commit -a -m "message"
+$ git push 
